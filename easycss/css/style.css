@@ -1,0 +1,28 @@
+body {
+    font-size: 40px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.block{
+    background: rgba(150, 197, 235, 0.993);
+    overflow: auto;
+    max-width: 2000px;
+    min-width: 500px;
+    max-height: 1000px;
+    min-height: 500px;
+    border: 1px solid #000;
+    border-radius: 30px 0 0 30px;
+}
+.border{
+    padding: 50px;
+    margin: 10px;
+    background: rgba(192, 127, 127, 0.493);
+    display: inline-block;
+    width: 600px;
+    height: 600px;
+    border-radius: 50px;
+    box-shadow: inset 1px 1px 10px;
+}
